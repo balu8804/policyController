@@ -1,0 +1,17 @@
+annotations:
+  artifacthub.io/images: |
+    - name: policy-controller
+      image: ghcr.io/sigstore/policy-controller/policy-controller:v0.8.0@sha256:e91bcd954394b414d3b80adfc2cefdae84dd7985fb938a895471eb34aac57744
+  artifacthub.io/license: Apache-2.0
+apiVersion: v2
+appVersion: 0.8.0
+description: The Helm chart for Policy  Controller
+home: https://github.com/sigstore/policy-controller
+maintainers:
+- name: dlorenc
+- name: hectorj2f
+name: policy-controller
+sources:
+- https://github.com/sigstore/policy-controller
+type: application
+version: 0.6.0
