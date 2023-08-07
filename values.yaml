@@ -18,6 +18,13 @@ webhook:
     pullPolicy: IfNotPresent
   env: {}
   extraArgs: {}
+  spec:
+  images:
+  - glob: "**your-desired-value**"
+  authorities:
+  - key:
+      secretRef:
+        name: mysecret
   resources:
     limits:
       cpu: 200m
